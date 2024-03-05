@@ -1,0 +1,26 @@
+body {
+    box-sizing: border-box;
+}
+
+.elementos {
+    display: flex;
+    margin: 5%;
+    gap: 0.5%;
+    flex-wrap: wrap;
+}
+
+.elemento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.2rem;
+    list-style: none;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.elemento .simbolo {
+    align-self: center;
+    font-size: 2rem;
+}
