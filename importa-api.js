@@ -11,6 +11,7 @@ xhr.addEventListener('readystatechange', function () {
 			const indice = elementos.indexOf(element);
 			insereElementosLista(element, indice);
 		});
+		insereEmptySpaces();
 	}
 });
 
