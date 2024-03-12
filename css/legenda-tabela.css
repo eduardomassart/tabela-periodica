@@ -1,0 +1,75 @@
+.legendas {
+    width: 80vw;
+    margin: 0 auto 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 2rem;
+}
+
+.legenda_grupo-tabela {
+    width: 20%;
+}
+
+.box {
+    width: 10%;
+    aspect-ratio: 1/1;
+    margin-right: 3%;
+    border: none;
+}
+
+.descricao-legenda {
+    width: 85%;
+    white-space: nowrap;
+}
+
+
+#nonmetal,
+.nommetal {
+    background-color: #A1D344;
+}
+
+#alkali-metal,
+.alkali-metal {
+    background-color: #F1B200;
+}
+
+#metalloid,
+.metalloid {
+    background-color: #4DB6AC;
+}
+
+#metal,
+.metal {
+    background-color: #A2C7D3;
+}
+
+#lanthanoid,
+.lanthanoid {
+    background-color: #90E3E9;
+}
+
+#noble-gas,
+.noble-gas {
+    background-color: #3D9EE3;
+}
+
+#alkaline-earth-metal,
+.alkaline-earth-metal {
+    background-color: #EADA00;
+}
+
+#halogen,
+.halogen {
+    background-color: #70CBEB;
+}
+
+#transition-metal,
+.transition-metal {
+    background-color: #EB8E8E;
+}
+
+#actinoid,
+.actinoid {
+    background-color: #DCADD6;
+}

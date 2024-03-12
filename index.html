@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela Periodica</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/legenda-tabela.css">
 </head>
 
 <body>
@@ -16,11 +17,43 @@
             <p class="simbolo">H</p>
         </li> -->
     </ol>
-
-    <script src="importa-api.js"></script>
-    <script src="cria-elemento.js"></script>
-    <script src="cria-empty-spaces.js"></script>
-    <script src="reordena-elementos.js"></script>
+    <ul class="legendas">
+        <li class="legenda_grupo-tabela">
+            <input type="text" id="nonmetal" class="box" readonly><label class="descricao-legenda" for="nonmetal">Não metais</label>
+        </li>
+        <li class="legenda_grupo-tabela">
+            <input type="text" id="alkali-metal" class="box" readonly><label class="descricao-legenda" for="alkali-metal">Metais alcalinos</label>
+        </li>
+        <li class="legenda_grupo-tabela">
+            <input type="text" id="metalloid" class="box" readonly><label class="descricao-legenda" for="metalloid">Semimetais</label>
+        </li>
+        <li class="legenda_grupo-tabela">
+            <input type="text" id="metal" class="box" readonly><label class="descricao-legenda" for="metal">Outros metais</label>
+        </li>
+        <li class="legenda_grupo-tabela">
+            <input type="text" id="lanthanoid" class="box" readonly><label class="descricao-legenda" for="lanthanoid">Lantanídios</label>
+        </li>
+        <li class="legenda_grupo-tabela">
+            <input type="text" id="noble-gas" class="box" readonly><label class="descricao-legenda" for="noble-gas">Gases nobres</label>
+        </li>
+        <li class="legenda_grupo-tabela">
+            <input type="text" id="alkaline-earth-metal" class="box" readonly><label class="descricao-legenda" for="alkaline-earth-metal">Metais alcalino-terrosos</label>
+        </li>
+        <li class="legenda_grupo-tabela">
+            <input type="text" id="halogen" class="box" readonly><label class="descricao-legenda" for="halogen">Halogênios</label>
+        </li>
+        <li class="legenda_grupo-tabela">
+            <input type="text" id="transition-metal" class="box" readonly><label class="descricao-legenda" for="transition-metal">Metais de transição</label>
+        </li>
+        <li class="legenda_grupo-tabela">
+            <input type="text" id="actinoid" class="box" readonly><label class="descricao-legenda" for="actinoid">Actinídios</label>
+        </li>
+    </ul>
+    <script src="./js/importa-api.js"></script>
+    <script src="./js/cria-elemento.js"></script>
+    <script src="./js/cria-empty-spaces.js"></script>
+    <script src="./js/reordena-elementos.js"></script>
+    <script src="./js/colore-grupos.js"></script>
 </body>
 
 </html>
