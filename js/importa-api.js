@@ -10,9 +10,11 @@ xhr.addEventListener('readystatechange', function () {
 		elementos.forEach(element => {
 			const indice = elementos.indexOf(element);
 			insereElementosLista(element, indice);
+			coloreGrupos(element, indice);
 		});
 		reordenaElementos();
 		insereEmptySpaces();
+		corrigeElementoErrados();
 	}
 });
 

@@ -10,7 +10,7 @@ function insereElementosLista(elemento, indice) {
 
 
 //cria cada elemento e insere seus filhos (N atomico e simbolo);
-function criaElemento(numero, simbolo, indice) {
+function criaElemento(numero, simbolo, indice, grupo) {
     const elemento = document.createElement("li");
     elemento.classList.add("elemento");
     elemento.classList.add(indice);
