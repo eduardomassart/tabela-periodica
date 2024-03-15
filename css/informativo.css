@@ -1,0 +1,69 @@
+.informativo {
+    position: absolute;
+    left: 20.8%;
+    top: 14.5%;
+    width: 41.2%;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.informativo_titulo {
+    width: 100%;
+    height: 23%;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 8px 12px;
+    background-color: #003f00;
+    color: white;
+    margin-bottom: 0.2rem;
+}
+
+.informativo_elemento {
+    height: 65%;
+    width: 20%;
+    background-color: #A1D344;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 30% auto;
+    grid-template-rows: 6fr 40% 1fr 1rem 1fr 30%;
+    grid-template-areas: 
+    ". ."
+    "simbolo simbolo"
+    ". ."
+    "nome nome"
+    ". ."
+    "numero massa";
+}
+
+.informativo_elemento-simbolo {
+    grid-area: simbolo;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.informativo_elemento-nome {
+    grid-area: nome;
+    font-size: 0.8rem;
+}
+
+.informativo_elemento-numero {
+    grid-area: numero;
+    background: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    color: white;
+    font-size: 0.9rem;
+    padding-top: 8px;
+}
+
+.informativo_elemento-massa {
+    grid-area: massa;
+    padding-top: 8px;
+    font-size: 0.9rem;
+}
+
+.informativo_tabela {
+    height: 65%;
+    width: 80%;
+    background-color: lightgrey;
+}
