@@ -6,6 +6,7 @@
     height: 160px;
     display: flex;
     flex-wrap: wrap;
+    display: none;
 }
 
 .informativo_titulo {
@@ -14,15 +15,13 @@
     font-size: 2rem;
     font-weight: 500;
     padding: 8px 12px;
-    background-color: #003f00;
     color: white;
-    margin-bottom: 0.2rem;
+    background-color: rgb(46, 46, 46);
 }
 
 .informativo_elemento {
     height: 65%;
     width: 20%;
-    background-color: #A1D344;
     display: grid;
     text-align: center;
     grid-template-columns: 30% auto;
@@ -65,5 +64,17 @@
 .informativo_tabela {
     height: 65%;
     width: 80%;
-    background-color: lightgrey;
+    background-color: rgb(223, 222, 222);
+}
+
+.informativo_tabela-linhas {
+    border-bottom: 1px solid darkgray;
+}
+
+.tabela_info, .tabela_dado {
+    border-right: 1px solid darkgray;
+    width: 49%;
+    padding: 1% 2%;
+    text-align: start;
+    font-size: 0.9rem;
 }

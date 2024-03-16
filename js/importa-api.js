@@ -15,6 +15,7 @@ xhr.addEventListener('readystatechange', function () {
 		reordenaElementos();
 		insereEmptySpaces();
 		corrigeElementoErrados();
+		habilitaInformativo(elementos);
 	}
 });
 
