@@ -33,9 +33,7 @@ function habilitaInformativo(elementos) {
             }
 
             const variaveisDeInput = [informativoTitulo, elementoSimbolo, elementoNome, elementoNumeroAtomico, elementoMassaTomica, tabSimbolo, tabNumeroAtomico, tabMassaTomica, tabConfigElet];
-            
-            console.log(informativoTitulo.textContent);
-
+        
             variaveisDeInput.forEach((variavel) => {
                 variavel.textContent = "";
             });
@@ -46,11 +44,11 @@ function habilitaInformativo(elementos) {
             elementoSimbolo.textContent = elementoObj.simbolo;
             elementoNome.textContent = elementoObj.nome;
             elementoNumeroAtomico.textContent = elementoObj.numeroAtomico;
-            elementoMassaTomica.textContent = elementoObj.massaAtomica;
+            elementoMassaTomica.textContent = atualizaMassaAtomica(elementoObj.massaAtomica);
 
             tabSimbolo.textContent = elementoObj.simbolo;
             tabNumeroAtomico.textContent = elementoObj.numeroAtomico;
-            tabMassaTomica.textContent = elementoObj.massaAtomica;
+            tabMassaTomica.textContent = atualizaMassaAtomica(elementoObj.massaAtomica);
             tabConfigElet.textContent = elementoObj.configEletron;
 
             informativo.style.display = "flex";
