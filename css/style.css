@@ -32,6 +32,12 @@ body {
     aspect-ratio: 1;
 }
 
+.elemento:hover {
+    transform: scale(1.1);
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
 .numero_atomico {
     font-size: 12px;
 }
