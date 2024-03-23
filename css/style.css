@@ -64,3 +64,28 @@ body {
     align-self: center;
     font-size: 1.5rem;
 }
+
+.indicator-transition-metal {
+    position: relative;
+}
+
+.indicator-lanthanoid {
+    position: absolute;
+    top: -264px;
+    left: 272px;
+    font-size: 0.8rem;
+}
+
+.indicator-actinoid {
+    position: absolute;
+    top: -209px;
+    left: 272px;
+    font-size: 0.8rem;
+}
+
+.indicator-img {
+    position: absolute;
+    top: -150px;
+    left: 263px;
+    rotate: -50deg;
+}
