@@ -53,5 +53,9 @@ function habilitaInformativo(elementos) {
 
             informativo.style.display = "flex";
         })
+
+        element.addEventListener("mouseout", () => {
+            informativo.style.display = "none";
+        })
     })
 }
